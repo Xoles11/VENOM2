@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(./img/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1500px;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 50px;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+header ul li a{
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+main .text{
+    display: flex;
+}
+main .text_left h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 40px;
+}
+main .text_left p {
+    margin-top: 40px;
+    color: white;
+    opacity: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 423px;
+}
+main .text_under{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+main .text_under .btn_left{
+    width: 204px;
+    height: 46px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#8D0019;
+    gap: 10px;
+}
+main .text_under .btn_rigth{
+    background: none;
+    border: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.text_rigth img{
+    position: absolute;
+    right: 0;
+    top:10px;
+}
+.text_rigth{
+    display: flex;
+    gap: 30px;
+}
+.text_right_text_info h2{
+    margin: 5px;
+}
+.text_right_text_info{
+    margin-bottom: 20px;
+}
+
